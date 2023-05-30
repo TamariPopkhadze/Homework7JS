@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+h2{
+    margin-left: 23px;
+}
+li{
+    font-size: 20px;
+    margin-top: 10px;
+}
