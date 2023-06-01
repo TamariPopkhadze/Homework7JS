@@ -16,6 +16,7 @@ request.addEventListener('load', function(){
         let color = document.createElement('li');
         let name = document.createElement('li');
         color.textContent = item.color;
+        color.style.color =item.color;
         name.textContent = item.name;
         namesUl.appendChild(name);
         colorsUl.appendChild(color)
@@ -26,7 +27,7 @@ request.open('GET','https://reqres.in/api/unknown');
 request.send();
 
 
-//-------------First Task-------------
+//-------------Second Task-------------
 let rqst = new XMLHttpRequest();
 rqst.addEventListener('load', function(){
     let info = rqst.responseText;
